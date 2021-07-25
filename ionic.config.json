@@ -1,0 +1,7 @@
+{
+    "name": "Health Netwok",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "angular"
+}

@@ -1,0 +1,21 @@
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
+import { DivisionPage } from './division.page';
+
+const routes: Routes = [
+  {
+    path: '',
+    component: DivisionPage
+  },
+  {
+    path: 'view-division',
+    loadChildren: () => import('./view-division/view-division.module').then( m => m.ViewDivisionPageModule)
+  }
+];
+
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule],
+})
+export class DivisionPageRoutingModule {}
