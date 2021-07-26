@@ -4,35 +4,71 @@
             <ion-menu-button autoHide="false"></ion-menu-button>
         </ion-buttons>
         <ion-title class="title" style="margin-right: 50px;" class="ion-text-center">
-            Training
+            Category 1
         </ion-title>
-        <ion-buttons slot="end" [routerLink]="['/sequential']">
+        <!-- <ion-buttons slot="end" [routerLink]="['/sequential']">
             <ion-icon tappable color="light" name="arrow-forward"></ion-icon>
-        </ion-buttons>
+        </ion-buttons> -->
     </ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding">
+    <ion-grid>
+        <ion-row>
+            <ion-col size="6" no-padding>
+                <ion-card>
+                    <br>
+                    <img src="assets/icon/medicine.png">
+                    <h3>Pharmacy</h3>
+                </ion-card>
+            </ion-col>
 
-    <h3>The Sequential Memory Exercise</h3>
+            <ion-col size="6" no-padding>
+                <ion-card>
+                    <br>
+                    <img src="assets/icon/doctor.png">
 
-    <p>
-        Training will be the information with the footprints or math symbols, etc. Starting in fifth grade (sometimes sooner), children learn how do complex math problems such as long division and pre-algebra. They should already have their math facts stored
-        in long term memory and to be able to manipulate numbers well. For some children, they reach a glass ceiling that they feel is impossible to overcome in learning math. While they did well in math before, they find themselves unable to progress
-        in math when introduced to long division and algebra. This is usually caused by deficits in sequential memory.
-    </p>
+                    <h3>Private Doctor</h3>
+                </ion-card>
+            </ion-col>
+        </ion-row>
 
-    <p>
-        Sequential memory is the ability to remember steps or sequences. The steps of a complex math problem have to be remembered in the correct order. Rules have to be remembered and applied in solving complex math problems. Sequential memory is what helps
-        children remember steps and the proper order of these steps. The following exercise will develop sequential memory in children who have adequate long term memory but are lacking in sequential memory. If long term memory has not been developed,
-        work on long term memory first (e.g., the multiplication tables) and then progress to sequential memory.
-    </p>
+        <ion-row>
+            <ion-col size="6" no-padding>
+                <ion-card>
+                    <br>
+                    <img src="./../../assets/icon/info.png">
+                    <h3>Medical Aid</h3>
+                </ion-card>
+            </ion-col>
 
-    <!-- <p>
-        <b>Materials Needed.</b> <a download="Yourfamilyclinic Symbols Handout" href="../../assets/pdfs/symbols2.pdf" target="_blank">Symbols Handout</a> and a cover or shield (e.g., Kleenex box, empty bank check box).
-    </p> -->
+            <ion-col size="6" no-padding>
+                <ion-card>
+                    <br>
+                    <img src="assets/icon/patient.png">
 
-    <!-- <ion-buttons> -->
-    <ion-button expand="block" [routerLink]="['/sequential']" color="primary">Next</ion-button>
-    <!-- </ion-buttons> -->
+                    <h3>Nursing Care</h3>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col size="6" no-padding>
+                <ion-card>
+                    <br>
+                    <img src="assets/icon/blood.png">
+                    <h3>Diagnostic Service</h3>
+                </ion-card>
+            </ion-col>
+
+            <ion-col size="6" no-padding>
+                <ion-card>
+                    <br>
+                    <img src="assets/icon/medicine.png">
+
+                    <h3>Mental Health Care</h3>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
 </ion-content>

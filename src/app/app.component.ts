@@ -18,17 +18,17 @@ export class AppComponent implements OnInit {
       icon: 'home'
     },
     {
-      title: 'Training',
+      title: 'Hospital',
       url: '/tebs/teb2',
       icon: 'paper-plane'
     },
     {
-      title: 'Remediation',
+      title: 'Pharmacies',
       url: '/tebs/teb3',
       icon: 'archive'
     },
     {
-      title: 'Tutoring',
+      title: 'Ambulance',
       url: '/tebs/teb4',
       icon: 'book'
     },

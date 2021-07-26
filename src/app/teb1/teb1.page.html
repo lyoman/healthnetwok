@@ -13,20 +13,20 @@
     <ion-grid>
         <ion-row>
             <ion-col size="12">
-                <ion-img src="../../assets/imgs/banner1.png"></ion-img>
+                <ion-img src="../../assets/imgs/banner2.png"></ion-img>
             </ion-col>
         </ion-row>
     </ion-grid>
     <hr class="new4">
 
-    <h1 style="color: #4d4dff;text-align: center;">Latest Posts</h1>
+    <h1 style="color: #4d4dff;text-align: center;">Latest Updates</h1>
 
     <ion-grid tappable>
         <ion-row>
             <ion-col [routerLink]="['/division']" [ngStyle]="{'background-position': 'center top','background-repeat': 'no-repeat','background-size': 'cover','max-width': '100%', 'height': 'auto'}" style="max-width: 100%;height: auto;" class="news">
                 <ion-img src="../../assets/icon/banner.png"></ion-img>
                 <h1 class="banner ion-text-center">
-                    Long division and the various levels of algebra
+                    Current updates, news and promotioms
                 </h1>
             </ion-col>
         </ion-row>
@@ -35,27 +35,27 @@
     <!-- <ion-footer> -->
     <ion-grid>
         <ion-row>
-            <ion-col size="4" no-padding (click)="training()">
+            <ion-col size="4" no-padding (click)="pharmacy()">
                 <ion-card>
                     <br>
-                    <img src="../../assets/imgs/me/booking.png">
-                    <h3>Training</h3>
+                    <img src="../../assets/icon/medicine.png">
+                    <h3>Pharmacies</h3>
                 </ion-card>
             </ion-col>
 
-            <ion-col size="4" no-padding (click)="remediation()">
+            <ion-col size="4" no-padding (click)="hospital()">
                 <ion-card>
                     <br>
-                    <img src="../../assets/imgs/me/medicine.png">
-                    <h3>Remediation</h3>
+                    <img src="../../assets/icon/hospital1.png">
+                    <h3>Hospital</h3>
                 </ion-card>
             </ion-col>
 
-            <ion-col size="4" no-padding (click)="tutoring()">
+            <ion-col size="4" no-padding (click)="ambulance()">
                 <ion-card>
                     <br>
-                    <img src="../../assets/imgs/me/video-tutorials.png">
-                    <h3>Tutoring</h3>
+                    <img src="../../assets/icon/ambulance.png">
+                    <h3>Ambulance</h3>
                 </ion-card>
             </ion-col>
         </ion-row>

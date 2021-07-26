@@ -11,24 +11,24 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 export class Teb1Page implements OnInit {
 
   constructor(
-              public router: Router, 
-              ) { 
+    public router: Router,
+  ) {
 
-              }
-
-  ngOnInit() {
-  
   }
 
-  tutoring () {
+  ngOnInit() {
+
+  }
+
+  pharmacy() {
     this.router.navigateByUrl('/tebs/teb4')
   }
 
-  remediation () {
+  hospital() {
     this.router.navigateByUrl('/tebs/teb3')
   }
 
-  training () {
+  ambulance() {
     this.router.navigateByUrl('/tebs/teb2')
   }
 
